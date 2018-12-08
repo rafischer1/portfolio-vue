@@ -3,7 +3,7 @@
       <header>
        <b-navbar toggleable="md" type="dark" variant="dark">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-      <b-navbar-brand to="/">vueCRUD</b-navbar-brand>
+      <b-navbar-brand to="/">Fischer Portfolio</b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav>
           <b-nav-item to="/">Home</b-nav-item>
