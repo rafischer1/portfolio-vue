@@ -9,14 +9,14 @@
           <b-nav-item to="/">Home</b-nav-item>
           <b-nav-item to="/resume">Resume</b-nav-item>
           <b-nav-item to="/playground">Playground</b-nav-item>
-          <b-button id="showModal" @click="showModal">Welcome</b-button>
-          <b-modal ref="myModalRef" hide-footer title="Contact">
+          <b-button id="showModal" variant="info" @click="showModal">Welcome</b-button>
+          <b-modal ref="myModalRef" hide-footer title="Hi! & Contact">
             <div class="d-block text-center">
-              <h4>Hi! and thank you for visiting my portfolio site. Please feel free to contact me with any questions</h4>
+              <h4>Thank you for visiting my portfolio site. Please feel free to contact me with any questions</h4>
               <div id="email">Email: artiefischer@gmail.com</div>
               <div id="phone">Phone: 302 423 2120</div>
             </div>
-            <b-btn class="mt-3" variant="outline-primary" block @click="hideModal">Close</b-btn>
+            <b-btn class="mt-3" variant="outline-primary warning" block @click="hideModal">Close</b-btn>
           </b-modal>
           <span class="bar">
             <b-link class="link" href="#foo" target="_blank" >Github</b-link>
@@ -76,6 +76,11 @@ export default {
 }
 .bar {
   padding-left: 10px;
+}
+#showModal:hover {
+  border: 1ps solid #563a8a;
+  background-color: #563a8a;
+  color: white;
 }
 
 </style>
