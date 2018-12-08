@@ -1,6 +1,10 @@
 <template>
   <div class="resume">
-   Resume
+   <div>
+     <br>
+     <h2>PLACEHOLDER RESUME</h2>
+  <b-img src="../../static/resume.png" fluid alt="Responsive image" />
+</div>
   </div>
 </template>
 
@@ -19,6 +23,7 @@ export default {
 <style scoped>
 h1, h2 {
   font-weight: normal;
+  color:seagreen;
 }
 ul {
   list-style-type: none;

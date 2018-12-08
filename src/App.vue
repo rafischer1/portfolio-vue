@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-      <header>
-       <b-navbar toggleable="md" type="dark" variant="dark">
+    <header>
+    <b-navbar toggleable="md" type="dark" variant="dark">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
       <b-navbar-brand to="/">Fischer Portfolio</b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
@@ -9,10 +9,25 @@
           <b-nav-item to="/">Home</b-nav-item>
           <b-nav-item to="/resume">Resume</b-nav-item>
           <b-nav-item to="/playground">Playground</b-nav-item>
+          <b-button id="showModal" @click="showModal">Welcome</b-button>
+          <b-modal ref="myModalRef" hide-footer title="Contact">
+            <div class="d-block text-center">
+              <h4>Hi! and thank you for visiting my portfolio site. Please feel free to contact me with any questions</h4>
+              <div id="email">Email: artiefischer@gmail.com</div>
+              <div id="phone">Phone: 302 423 2120</div>
+            </div>
+            <b-btn class="mt-3" variant="outline-primary" block @click="hideModal">Close</b-btn>
+          </b-modal>
+          <span class="bar">
+            <b-link class="link" href="#foo" target="_blank" >Github</b-link>
+            <b-link class="link" href="#foo" target="_blank">LinkedIn</b-link>
+            <b-link class="link" href="https://talent.galvanize.com/students/3090" target="_blank">Galvanize Talent</b-link>
+          </span>
      
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
+     
     </header>
     <main>
     <router-view/>
@@ -22,6 +37,14 @@
 
 <script>
 export default {
+   methods: {
+    showModal () {
+      this.$refs.myModalRef.show()
+    },
+    hideModal () {
+      this.$refs.myModalRef.hide()
+    }
+  },
   name: 'App'
 }
 </script>
@@ -32,6 +55,27 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;  
+  color: #3c5670;  
 }
+.link {
+ padding: 5px;
+
+ 
+  border: 1px solid white;
+  border-radius: 15px;
+  color: #42b983;
+  text-align: center;
+}
+.link:hover {
+  border: 1px solid #42b983;
+  background-color: white;
+}
+.link:active {
+  border: 1px solid #c7c7c7;
+  background-color: #c7c7c7;
+}
+.bar {
+  padding-left: 10px;
+}
+
 </style>

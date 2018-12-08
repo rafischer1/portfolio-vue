@@ -1,11 +1,32 @@
 <template>
   <div class="home">
-   Hi
+  <div>
+    <b-jumbotron header="React Inbox Fullstack" lead="Email clone site featuring a REACT frontend and GOLANG server and routing Backend" >
+  <p>For more information visit site/repos</p>
+  <b-btn class="info" variant="info" href="#">Visit Site</b-btn><br>
+  <b-btn variant="alert" href="#">Backend Github</b-btn>
+  <b-btn variant="alert" href="#">Frontend Github</b-btn>
+</b-jumbotron>
+<b-jumbotron header="Q3/Capstone" lead="The best project you've ever seen" >
+  <p>For more information visit website</p>
+  <b-btn class="info" variant="info" href="#">Visit Site</b-btn><br>
+  <b-btn variant="alert" href="#">Github</b-btn>
+</b-jumbotron>
+<b-jumbotron header="Bikesly"  lead="The Bike Share Search Engine. A traditional frontend site displaying DOM manipulation skill with several API calls" >
+  <p>For more information visit site</p>
+  <b-btn class="info" variant="info" href="#">Visit Site</b-btn><br>
+  <b-btn variant="alert" href="#">Github</b-btn>
+</b-jumbotron>
+ 
+  </div>
+
   </div>
 </template>
 
 <script>
 export default {
+   
+
   name: 'Home',
   data () {
     return {
@@ -29,6 +50,16 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  border: 2px solid #133124;
+  color: #133124;
+  margin: 5px;
+}
+.info {
+  border: none;
+  color: white;
+}
+a:hover {
+  background-color: #563a8a;
+  color: white;
 }
 </style>
