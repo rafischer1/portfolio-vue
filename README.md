@@ -2,6 +2,8 @@
 
 `vue init webpack portfolio-vue`
 
+## For a view of the dev build navigate to the `dev` branch
+
 ## Build Setup
 
 ``` bash
