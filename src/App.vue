@@ -67,10 +67,12 @@ export default {
   text-align: center;
 }
 .link:hover {
+  text-decoration: none;
   border: 1px solid #42b983;
   background-color: white;
 }
 .link:active {
+  text-decoration: none;
   border: 1px solid #c7c7c7;
   background-color: #c7c7c7;
 }
