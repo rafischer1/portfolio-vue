@@ -19,8 +19,8 @@
             <b-btn class="mt-3" variant="outline-primary warning" block @click="hideModal">Close</b-btn>
           </b-modal>
           <span class="bar">
-            <b-link class="link" href="#foo" target="_blank" >Github</b-link>
-            <b-link class="link" href="#foo" target="_blank">LinkedIn</b-link>
+            <b-link class="link" href="https://github.com/rafischer1" target="_blank" >Github</b-link>
+            <b-link class="link" href="https://www.linkedin.com/in/robert-a-fischer/" target="_blank">LinkedIn</b-link>
             <b-link class="link" href="https://talent.galvanize.com/students/3090" target="_blank">Galvanize Talent</b-link>
           </span>
      
