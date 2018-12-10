@@ -18,3 +18,11 @@ npm run build
 
 # run e2e tests
 npm run e2e
+```
+---
+## To-do List
+
+* Mobile sizing
+* Resume layout and cleanup
+* Navbar spacing
+* More features for playground...
