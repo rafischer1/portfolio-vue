@@ -58,9 +58,7 @@ export default {
   color: #3c5670;  
 }
 .link {
- padding: 5px;
-
- 
+ padding: 5px; 
   border: 1px solid white;
   border-radius: 15px;
   color: #42b983;
@@ -79,6 +77,9 @@ export default {
 .bar {
   padding-left: 10px;
 }
+/* #showModal {
+  margin-left: 33%;
+} */
 #showModal:hover {
   border: 1ps solid #563a8a;
   background-color: #563a8a;
