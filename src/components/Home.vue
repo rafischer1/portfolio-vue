@@ -1,21 +1,21 @@
 <template>
   <div class="home">
   <div>
-    <b-jumbotron class="inboxJumbo" header="React Inbox Fullstack" lead="Email clone site featuring a REACT frontend and GOLANG server and routing Backend" >
+    <b-jumbotron class="jumbo inboxJumbo" header="React Inbox Fullstack" lead="Email clone site featuring a REACT frontend and GOLANG server and routing Backend" >
   <p>For more information visit site/repos</p>
   <b-btn class="info" variant="info" href="#">Visit Site</b-btn><br>
   <b-btn variant="alert" href="https://github.com/rafischer1/react_inbox_db" target="_blank">Backend Github</b-btn>
   <b-btn variant="alert" href="https://github.com/rafischer1/react-inbox" target="_blank">Frontend Github</b-btn>
 </b-jumbotron>
-<b-jumbotron class="q3Jumbo" header="Q3/Capstone" lead="The best project you've ever seen" >
+<b-jumbotron class="jumbo q3Jumbo" header="Q3/Capstone" lead="The best project you've ever seen" >
   <p>For more information visit website</p>
   <b-btn class="info" variant="info" href="#">Visit Site</b-btn><br>
   <b-btn variant="alert" href="#">Github</b-btn>
 </b-jumbotron>
-<b-jumbotron class="bikeslyJumbo" header="Bikesly"  lead="The Bike Share Search Engine. A traditional frontend site displaying DOM manipulation skill with several API calls" >
+<b-jumbotron class="jumbo bikeslyJumbo" header="Bikesly"  lead="The Bike Share Search Engine. A traditional frontend site displaying DOM manipulation skill with several API calls" >
   <p>For more information visit site</p>
   <b-btn class="info" variant="info" href="http://rafischer1-q1-bikesly.surge.sh/" target="_blank"s>Visit Site</b-btn><br>
-  <b-btn variant="alert" href="https://github.com/rafischer1/q1-fischer-bikesly" target="_blank">Github</b-btn>
+  <b-btn variant="alert" href="https://github.com/rafischer1/bikesly" target="_blank">Github</b-btn>
 </b-jumbotron>
  
   </div>
@@ -63,27 +63,33 @@ a:hover {
   color: white;
 }
 
+.jumbo {
+  margin: 2% 2.5%;
+  background-color: #ececf2;
+}
+
+.jumbo:hover {
+  background-color: #f3e8e8;
+}
+
+
 .inboxJumbo {
-  background: url('../../static/bikesly-graphic.png');
   margin-top: 5px;
   background-repeat: repeat-y;
   background-position-x: left;
   background-size: 10%;
-  background-color: #ececf2;
 }
 .bikeslyJumbo {
-  background: url('../../static/bikesly-graphic.png');
+ background: url('../../static/bikesly-graphic.png');
   background-repeat: repeat-y;
   background-position-x: left;
   background-size: 10%;
-  background-color: #ececf2;
 }
 
 .q3Jumbo {
-  background: url('../../static/bikesly-graphic.png');
+ 
   background-repeat: repeat-y;
   background-position-x: right;
   background-size: 10%;
-  background-color: #ececf2;
 }
 </style>
