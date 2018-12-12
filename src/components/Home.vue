@@ -7,14 +7,15 @@
   <b-btn variant="alert" href="https://github.com/rafischer1/react_inbox_db" target="_blank">Backend Github</b-btn>
   <b-btn variant="alert" href="https://github.com/rafischer1/react-inbox" target="_blank">Frontend Github</b-btn>
 </b-jumbotron>
-<b-jumbotron class="jumbo q3Jumbo" header="Q3/Capstone" lead="The best project you've ever seen" >
-  <p>For more information visit website</p>
+<b-jumbotron class="jumbo q3Jumbo" header="Stand Up" lead="Create sprints and keep your remote team integrated and updated daily!" >
+  <p>A fullstack application with NodeJS, Express, Oauth, PostgreSQL, & Vue|Vuex</p>
   <b-btn class="info" variant="info" href="#">Visit Site</b-btn><br>
-  <b-btn variant="alert" href="#">Github</b-btn>
+  <b-btn variant="alert" target="_blank" href="https://github.com/stinkfloyd/standupstanddown-fe">Github Frontend</b-btn>
+  <b-btn variant="alert" target="_blank" href="https://github.com/stinkfloyd/standupstanddown-be">Github Backend</b-btn>
 </b-jumbotron>
-<b-jumbotron class="jumbo bikeslyJumbo" header="Bikesly"  lead="The Bike Share Search Engine. A traditional frontend site displaying DOM manipulation skill with several API calls" >
+<b-jumbotron class="jumbo bikeslyJumbo" header="Bikesly"  lead="A traditional frontend site (HTML|CSS|JS) displaying DOM manipulation skill with several API calls" >
   <p>For more information visit site</p>
-  <b-btn class="info" variant="info" href="http://rafischer1-q1-bikesly.surge.sh/" target="_blank"s>Visit Site</b-btn><br>
+  <b-btn class="info" variant="info" href="http://rafischer1-q1-bikesly.surge.sh/" target="_blank">Visit Site</b-btn><br>
   <b-btn variant="alert" href="https://github.com/rafischer1/bikesly" target="_blank">Github</b-btn>
 </b-jumbotron>
  
@@ -25,8 +26,6 @@
 
 <script>
 export default {
-   
-
   name: 'Home',
   data () {
     return {
@@ -81,13 +80,13 @@ a:hover {
 }
 .bikeslyJumbo {
  background: url('../../static/bikesly-graphic.png');
+ background-color: #ececf2;
   background-repeat: repeat-y;
   background-position-x: left;
   background-size: 10%;
 }
 
 .q3Jumbo {
- 
   background-repeat: repeat-y;
   background-position-x: right;
   background-size: 10%;

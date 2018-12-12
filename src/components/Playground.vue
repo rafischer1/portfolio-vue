@@ -17,7 +17,7 @@
       caption="Check out this sweet carousel!"
                         text="I never thought I'd live away from the coast but Colorado certainly has a lot of charm."
                         img-src="https://lh3.googleusercontent.com/K8kKx4EUWWd6xVOD1cG6UJNEreZPJcY9_NCfXOURndhmsNMzvoqBNogLLHK0w3jZJDe7HGOVDgDBNXf3khYYaU2_1LZ93tlJvOz1_QSbS_6reoiWmGSqUB1hfReB6ier9OY0SUfV-34jzeVtCA6RjMGsfjE8QBAG1usf2HQ78bvWSf4Nx6zf0p7J3X1a1gcKLvOrEcLt61LazJXevWGeMyT_-XGEi8RwEcVJ41Qc_KKW8IEXu_DzP4XAsqfdp43MWI-OjXnZgznMziD5pDAau_eUJZg4Tdzwv2rYJfR0nnKF93VMmEraHNZJ-eq1WDw9QJmmDvpAFqaE9eoN4VjBaq7i-AuGiNI6Xkfb35KxikJDVxfBCOlNW3_iukNuPg32tjFSA6b14PPkkFEQ63jvwrp9JTHVkAq12Gx02Gi_rTvx3RT25TU86rt4JZI97dpAJSJbJEgrp8stZ7D4li4lUG2g4YFG89c5VZ3ng1rataZl0TXa5wNxyIXLHLB4mfCTU2qE5CUPE1je_AW2P27lCg4hVLksLLefCPjbeymXpPDV9I32FRlbcfV9Pg1LO4g2YxNS7zgboSk7o77It29VUjAFRweS64Ru3onqh_4LF0QN4NbK2zvclcLYV7hH1iowyWRrs1hr9qg57Y6ld53K3sR4=w2658-h1226-no"
-      ></b-carousel-slide>
+      ><h1>HEYEYEYEYEYEYEYYEYEYE</h1></b-carousel-slide>
 
       <!-- Slides with custom text -->
       <b-carousel-slide 

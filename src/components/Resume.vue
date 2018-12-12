@@ -62,7 +62,7 @@
        <h6>All aspects of music production: recording, editing, and mastering to product design, manufacturing, sale, and promotion. As well as, professionally and emphatically composing and performing solo and in various groups for 20 years. Styles ranging from 6 & 12-string guitar composition, electronic composition, to computer programming composition with <b>MAX|MSP/Ableton</b>.</h6>
       </b-col>
       </b-row>
-      <a href="/" target="_blank">Fischer Resume PDF</a>
+      <a href="/" target="_blank">⏬ Fischer Resume PDF</a>
       <!-- <b-img src="../../static/resume.png" fluid alt="Responsive image" /> -->
   </b-container>
   </div>
