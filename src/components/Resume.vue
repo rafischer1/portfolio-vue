@@ -39,7 +39,7 @@
           </div>
          </b-col>
 
-         <b-col class="professional"> 
+         <b-col class="professional" align-v="end"> 
            <h2>Professional Experience</h2> 
            <h4>Portland Paddle</h4>
            <h5>Supervisor/Administrator</h5>
@@ -80,37 +80,31 @@ export default {
 .resume {
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  border: 1px solid black;
+  justify-content: space-around;
+  border: 1px inset hsla(0, 0%, 45%, 0.472);
   border-radius: 15px;
   padding: 3%;
-  width: 80%;
-   font-weight: normal;
+  width: 85%;
+  font-weight: normal;
   color:#1b2a22;
 }
-
 h2:hover {
   color:  #563a8a;
 }
-
 h3 {
   color: #2a412a;
 }
-
 a {
   color: #42b983;
   font-size: 24px;
 }
-
 a:hover {
   color:  #563a8a;
   text-decoration: none;
 }
-
 a:active {
  color:  #7a5923;
 }
-
 #skillsBar {
   text-align: left;
   border-radius: 15px;
@@ -119,24 +113,22 @@ a:active {
   overflow: auto;
   padding: 5px;
 }
-
 .badges {
   cursor: pointer;
   margin: 2px;
 }
-
 .badges:hover {
   background-color: #563a8a;
 }
-
 .badges:active {
   color: #e0ffe2;
 }
-
 #personalStatement {
   font-size: 20px;
+  margin-top: -3%;
+  padding-bottom: 1%;
+  border-bottom: 1px dashed hsla(0, 0%, 0%, 0.116);
 }
-
 .professional {
   width: 50%;
 }
@@ -144,7 +136,6 @@ a:active {
   color: white;
   font-size: 18px;
 }
-
 .education {
  margin-top: 10%;
 }
