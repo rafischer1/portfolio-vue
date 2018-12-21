@@ -8,7 +8,7 @@
         <b-navbar-nav>
           <b-nav-item to="/">Home</b-nav-item>
           <b-nav-item to="/resume">Resume</b-nav-item>
-          <b-nav-item to="/playground">Playground</b-nav-item>
+          <b-nav-item v-show="!seen" to="/playground">Playground</b-nav-item>
           <b-button id="showModal" variant="info" @click="showModal">Welcome</b-button>
           <b-modal ref="myModalRef" hide-footer title="Hi! & Contact">
             <div class="d-block text-center">
@@ -23,11 +23,9 @@
             <b-link class="link" href="https://www.linkedin.com/in/robert-a-fischer/" target="_blank">LinkedIn</b-link>
             <b-link class="link" href="https://talent.galvanize.com/students/3090" target="_blank">Galvanize Talent</b-link>
           </span>
-     
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-     
     </header>
     <main>
     <router-view/>
@@ -37,16 +35,24 @@
 
 <script>
 export default {
+  data() {
+    return {
+      seen: true,
+    }
+  },
    methods: {
     showModal () {
       this.$refs.myModalRef.show()
     },
     hideModal () {
       this.$refs.myModalRef.hide()
-    }
+    },
+
   },
-  name: 'App'
+  name: 'App',
+  
 }
+
 </script>
 
 <style>
@@ -56,9 +62,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #3c5670;  
+  display: flex;
+  flex-direction: column;
 }
 .link {
- padding: 5px; 
+  display: inline-flex;
+  padding: 5px; 
   border: 1px solid white;
   border-radius: 15px;
   color: #42b983;
