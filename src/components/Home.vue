@@ -4,21 +4,21 @@
 
       <b-jumbotron class="jumbo inboxJumbo" header="React Inbox Fullstack" lead="Email clone site featuring a REACT frontend and GOLANG server and routing Backend" >
         <p>For more information visit site/repos</p>
-        <b-btn class="info" variant="info" href="#">Visit Site</b-btn><br>
+        <b-btn class="info" target="_blank" variant="info" href="#">Visit Site</b-btn><br>
         <b-btn variant="alert" href="https://github.com/rafischer1/react_inbox_db" target="_blank">Backend Github</b-btn>
         <b-btn variant="alert" href="https://github.com/rafischer1/react-inbox" target="_blank">Frontend Github</b-btn>
        </b-jumbotron>
 
        <b-jumbotron class="jumbo q3Jumbo" header="Stand Up!" lead="An Agile application for managing daily stand ups for remote sprint teams" >
          <p>Fullstack project with NodeJS, Express, Oauth, PostgreSQL, & Vue</p>
-         <b-btn class="info" variant="info" href="#">Visit Site</b-btn><br>
-         <b-btn variant="alert" target="_blank" href="https://github.com/stinkfloyd/standupstanddown-fe">Github Frontend</b-btn>
-         <b-btn variant="alert" target="_blank" href="https://github.com/stinkfloyd/standupstanddown-be">Github Backend</b-btn>
+         <b-btn class="info" target="_blank" variant="info" href="https://standup-fischer.herokuapp.com/">Visit Site</b-btn><br>
+         <b-btn variant="alert" target="_blank" href="https://github.com/rafischer1/standupstanddown-fe">Github Frontend</b-btn>
+         <b-btn variant="alert" target="_blank" href="https://github.com/rafischer1/standupstanddown-be">Github Backend</b-btn>
        </b-jumbotron>
 
        <b-jumbotron class="jumbo bikeslyJumbo" header="Bikesly"  lead="A traditional frontend site (HTML|CSS|JS) displaying DOM manipulation skill with several API calls" >
          <p>For more information visit site</p>
-         <b-btn class="info" variant="info" href="http://rafischer1-q1-bikesly.surge.sh/" target="_blank">Visit Site</b-btn><br>
+         <b-btn class="info" target="_blank" variant="info" href="http://rafischer1-q1-bikesly.surge.sh/" >Visit Site</b-btn><br>
          <b-btn variant="alert" href="https://github.com/rafischer1/bikesly" target="_blank">Github</b-btn>
         </b-jumbotron>
     </div>
