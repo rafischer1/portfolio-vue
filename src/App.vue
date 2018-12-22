@@ -79,6 +79,7 @@ export default {
   border: 1px solid #42b983;
   background-color: white;
   transform: rotateZ(-2deg);
+  outline: none;
 }
 .link:active {
   text-decoration: none;

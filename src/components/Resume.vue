@@ -5,10 +5,12 @@
     <a href="tel:302-423-2120">☎️ 302 423 2120</a>
     <br />
     <a href="mail to:artiefischer@gmail.com">✉️ artiefischer@gmail.com</a>
+    <br />
+    <br />
     <b-container class="resume">
     <br />
     <p id="personalStatement">
-      "Software Developer with a passion for engineering clean and engaging frontend & fullstack applications. I am comfortable working in new languages and love the challenges associated with providing concise and inventive programming solutions."
+      "Software Developer with a passion for engineering clean and engaging frontend applications. I am comfortable working in new languages and frameworks and love the challenges associated with providing concise and inventive programming solutions."
      </p>
      <b-row>
        <b-col id="skillsBar">
@@ -60,20 +62,20 @@
             <div class="experience">
               <h4>Portland Paddle</h4>
               <h5>Supervisor/Administrator</h5>
-              <h5>Portland, Maine *August 2017 - July 2018*</h5>
-              <h6>Website SEO, updates, and maintanence on <b>Squarespace</b>. Event booking software     editing and maintenance with <b>Xola</b>. Regular newsletter composition and layout with     <b>Mailchimp</b>. Personnel supervision for both on-shore and on-water guide teams.</h6>
+              <h5>Portland, ME - August 2017 - July 2018</h5>
+              <h6>Website SEO, updates, and maintanence on <b>Squarespace</b>. Event booking software     editing and maintenance with <b>Xola</b>. Regular newsletter composition and layout with     <b>Mailchimp</b>. Personnel supervision and training for both on-shore staff and on-water guide teams.</h6>
             </div>
             <div class="experience">
               <h4>Engine</h4>
               <h5>Vounteer Coordinator</h5>
-              <h5>Biddeford, Maine *May 2017 - July 2018*</h5>
+              <h5>Biddeford, ME - May 2017 - July 2018</h5>
 
               <h6>Recruiting, screening, training, and scheduling over 50 volunteers in a     constantly-in-motion arts and community non-profit. Website building, SEO, updates, and     maintenance on <b>Wordpress</b> and weekly newsletter composition for events and announcements     with <b>Mailchimp</b>.</h6>
             </div>
             <div class="experience">
               <h4>Cure Organic Farm</h4>
               <h5>Farm Store Supervisor</h5>
-              <h5>Boulder, CO *June 2013 - December 2016*</h5>
+              <h5>Boulder, CO - June 2013 - December 2016</h5>
 
               <h6>Weekly farm store attendant responsible for maintaining produce stock, filling wholesale, and CSA orders. As well as training new staff, volunteers, and interns and providing tours of the property and various educational experiences for adults and children</h6>
             </div>
@@ -128,6 +130,7 @@ a {
 a:hover {
   color:  #563a8a;
   text-decoration: none;
+  outline: none;
 }
 a:active {
  color:  #7a5923;
@@ -146,7 +149,7 @@ a:active {
 }
 .badges:hover {
   background-color: #6d539e;
-   transform: rotateZ(-10deg);
+  transform: rotateZ(-10deg);
   
 }
 .badges:active {
@@ -165,6 +168,7 @@ a:active {
 #trello {
   color: white;
   font-size: 18px;
+  outline: none;
 }
 .education {
  margin-top: 10%;

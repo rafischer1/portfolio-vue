@@ -38,17 +38,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
 a {
   border: 2px solid #133124;
   color: #133124;
@@ -63,6 +52,11 @@ a {
 a:hover {
   background-color: #563a8a;
   color: white;
+  outline: none;
+}
+
+a:active {
+  outline: none;
 }
 
 .jumbotron {
@@ -75,6 +69,7 @@ a:hover {
 }
 
 .jumbo:hover {
+  outline: none;
   background-color: #f3e8e8;
 }
 
