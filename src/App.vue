@@ -18,7 +18,7 @@
                  <div id="email">Email: artiefischer@gmail.com</div>
                  <div id="phone">Phone: 302 423 2120</div>
                </div>
-               <b-btn class="mt-3" variant="outline-primary warning" block @click="hideModal">Close</b-btn>
+               <b-btn class="mt-3" variant="outline-dark" block @click="hideModal">Close</b-btn>
             </b-modal>
            </b-navbar-nav>
            <b-navbar-nav class="linksBar">
@@ -67,9 +67,9 @@ export default {
 }
 .link {
   /* display: inline-flex; */
-  padding: 5px 3px; 
+  padding: 5px; 
   margin-left: 2px;
-  border: 1px solid white;
+  border: 1px solid hsl(0, 0%, 100%);
   border-radius: 15px;
   color: #42b983;
   text-align: center;
@@ -78,6 +78,7 @@ export default {
   text-decoration: none;
   border: 1px solid #42b983;
   background-color: white;
+  transform: rotateZ(-2deg);
 }
 .link:active {
   text-decoration: none;
@@ -92,4 +93,6 @@ export default {
 .linksBar {
   margin-left: 40%;
 }
+
+        
 </style>

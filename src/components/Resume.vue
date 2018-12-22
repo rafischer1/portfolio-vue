@@ -33,30 +33,57 @@
             <h4>Galvanize, Inc</h4>
             <h5>Full-stack Web Development Immersive</h5>        
             <h5>Boulder, CO 2018</h5>
-            <br />
+             <br />
             <h4>Boston University</h4>
-            <h5>B.A. History</h5><h5>Boston,MA 2000-2004</h5>
+            <h5>B.A. History</h5><h5>Boston, MA 2000-2004</h5>
+          </div>
+
+           <div class="volunteer">
+            <h3>Volunteer and Extracurriculars</h3>
+            <h5>Office of H.H. Dalai Lama - Kalachakra Initiation</h5>
+            <h6>Behind-the-scenes event volunteer and attendant</h6>        
+            <h6>Washington D.C. 2011</h6>
+             <br />
+            <h5>Arbeia Roman Fort - Hadrian's Wall Archaeological Dig</h5>
+            <h6>Volunteer</h6><h6>South Shields, UK 2013</h6>
+            <br />
+            <h5>Menla Mountain Retreat Center</h5>
+            <h6>Longtime volunteer for general retreat functions including audio/visual recording, kitchen staff, and hospitality</h6><h6>Phoenicia, NY Staff Aug - Sep 2007</h6>
+             <br />
+            <h5>UMASS-Boston Nantucket Field Station</h5>
+            <h6>Certificate of Study for Benthic and Salt Marsh Ecology field research</h6><h6>Nantucket, MA July - Aug 2005</h6>
           </div>
          </b-col>
 
          <b-col class="professional" align-v="end"> 
            <h2>Professional Experience</h2> 
-           <h4>Portland Paddle</h4>
-           <h5>Supervisor/Administrator</h5>
-           <h5>Portland, Maine *August 2017 - July 2018*</h5>
-           <h6>Website SEO, updates, and maintanence on <b>Squarespace</b>. Event booking software     editing and maintenance with <b>Xola</b>. Regular newsletter composition and layout with     <b>Mailchimp</b>. Personnel supervision for both on-shore and on-water guide teams.</h6>
+            <div class="experience">
+              <h4>Portland Paddle</h4>
+              <h5>Supervisor/Administrator</h5>
+              <h5>Portland, Maine *August 2017 - July 2018*</h5>
+              <h6>Website SEO, updates, and maintanence on <b>Squarespace</b>. Event booking software     editing and maintenance with <b>Xola</b>. Regular newsletter composition and layout with     <b>Mailchimp</b>. Personnel supervision for both on-shore and on-water guide teams.</h6>
+            </div>
+            <div class="experience">
+              <h4>Engine</h4>
+              <h5>Vounteer Coordinator</h5>
+              <h5>Biddeford, Maine *May 2017 - July 2018*</h5>
 
-           <h4>Engine</h4>
-           <h5>Vounteer Coordinator</h5>
-           <h5>Biddeford, Maine *May 2017 - July 2018*</h5>
+              <h6>Recruiting, screening, training, and scheduling over 50 volunteers in a     constantly-in-motion arts and community non-profit. Website building, SEO, updates, and     maintenance on <b>Wordpress</b> and weekly newsletter composition for events and announcements     with <b>Mailchimp</b>.</h6>
+            </div>
+            <div class="experience">
+              <h4>Cure Organic Farm</h4>
+              <h5>Farm Store Supervisor</h5>
+              <h5>Boulder, CO *June 2013 - December 2016*</h5>
 
-           <h6>Recruiting, screening, training, and scheduling over 50 volunteers in a     constantly-in-motion arts and community non-profit. Website building, SEO, updates, and     maintenance on <b>Wordpress</b> and weekly newsletter composition for events and announcements     with <b>Mailchimp</b>.</h6>
+              <h6>Weekly farm store attendant responsible for maintaining produce stock, filling wholesale, and CSA orders. As well as training new staff, volunteers, and interns and providing tours of the property and various educational experiences for adults and children</h6>
+            </div>
+            <div class="experience">
+              <h4>Tea First Records</h4>
+              <h5>Independent Record Label</h5>
+              <h5>2005 - 2014</h5>
 
-           <h4>Tea First</h4>
-           <h5>Independent Record Label</h5>
-           <h5>2005 - 2014</h5>
-
-           <h6>All aspects of music production: recording, editing, and mastering to product design, manufacturing, sale, and promotion. As well as, professionally and emphatically composing and performing solo and in various groups for 20 years. Styles ranging from 6 & 12-string guitar composition, electronic composition, to computer programming composition with <b>MAX|MSP/Ableton</b>.</h6>
+              <h6>All aspects of music production: recording, editing, and mastering to product design, manufacturing, sale, and promotion. As well as, professionally and emphatically composing and performing solo and in various groups for 20 years. Styles ranging from 6 & 12-string guitar composition, electronic composition, to computer programming composition with <b>MAX|MSP/Ableton</b>.</h6>
+           </div>
         </b-col>
       </b-row>
 
@@ -118,10 +145,13 @@ a:active {
   margin: 2px;
 }
 .badges:hover {
-  background-color: #563a8a;
+  background-color: #6d539e;
+   transform: rotateZ(-10deg);
+  
 }
 .badges:active {
   color: #e0ffe2;
+ 
 }
 #personalStatement {
   font-size: 20px;
@@ -138,5 +168,11 @@ a:active {
 }
 .education {
  margin-top: 10%;
+}
+.experience {
+  margin-bottom: 5%;
+}
+.volunteer {
+  margin-top: 5%;
 }
 </style>
