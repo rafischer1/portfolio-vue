@@ -173,10 +173,25 @@ a:active {
 .education {
  margin-top: 10%;
 }
+.education:hover {
+  background-color: hsla(0, 0%, 94%, 0.228);
+  color: #132134;
+  border-radius: 10px;
+}
 .experience {
   margin-bottom: 5%;
 }
+.experience:hover {
+  background-color: hsla(0, 0%, 94%, 0.228);
+  color: #132134;
+  border-radius: 10px;
+}
 .volunteer {
   margin-top: 5%;
+}
+.volunteer:hover {
+  background-color: hsla(0, 0%, 94%, 0.228);
+  color: #132134;
+  border-radius: 10px;
 }
 </style>
