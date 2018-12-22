@@ -8,6 +8,7 @@
              <b-navbar-nav>
                <b-nav-item to="/">Projects</b-nav-item>
                <b-nav-item  to="/resume">Resume</b-nav-item>
+                 <b-nav-item  to="/cover-letter">Cover Letter</b-nav-item>
                <b-nav-item v-show="!seen" to="/playground">Playground</b-nav-item>
            </b-navbar-nav>
            <b-navbar-nav clas="welcome">
