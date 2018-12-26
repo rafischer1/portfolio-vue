@@ -91,7 +91,7 @@
         </b-col>
       </b-row>
         <!-- <a href="/" target="_blank">⏬ Fischer Resume PDF</a> -->
-        <b-btn id="portfolioBtn" variant="dark" href="https://github.com/rafischer1/portfolio-Vue" target="_blank">Portfolio Site Github</b-btn>
+        <b-btn id="portfolioBtn" variant="dark" href="https://github.com/rafischer1/portfolio-vue" target="_blank">Portfolio Site Github</b-btn>
     </b-container>
   </div>
 </template>
