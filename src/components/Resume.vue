@@ -17,6 +17,8 @@
          <h3>Technical Skills</h3>
            <h4>
              <b-badge class="badges" variant="info">JavaScript</b-badge>
+             <b-badge class="badges" variant="info">React/Redux/Native</b-badge>
+             <b-badge class="badges" variant="info">VueJS</b-badge>
              <b-badge class="badges" variant="info">NodeJS</b-badge>
              <b-badge class="badges" variant="info">ExpressJS</b-badge>
              <b-badge class="badges" variant="info">PostgreSQL</b-badge>
@@ -25,9 +27,9 @@
              <b-badge class="badges" variant="info">Agile</b-badge>
              <b-badge class="badges" variant="info">AJAX</b-badge>
              <b-badge class="badges" variant="info">TDD</b-badge>
-             <b-badge class="badges" variant="info">HTML5/CSS</b-badge>
+             <b-badge class="badges" variant="info">HTML5/CSS3</b-badge>
              <b-badge class="badges" variant="info"><a id="trello" href="https://trello.com/b/PKnnUNNZ/q2-planning" target="_blank"><u>Trello</u></a></b-badge>
-             <b-badge class="badges" variant="info">React/Redux/Native</b-badge><b-badge class="badges" variant="info">Vue.js</b-badge>
+             
             </h4>
 
           <div class="education">
@@ -84,13 +86,12 @@
               <h5>Independent Record Label</h5>
               <h5>2005 - 2014</h5>
 
-              <h6>All aspects of music production: recording, editing, and mastering to product design, manufacturing, sale, and promotion. As well as, professionally and emphatically composing and performing solo and in various groups for 20 years. Styles ranging from 6 & 12-string guitar composition, electronic composition, to computer programming composition with <b>MAX|MSP/Ableton</b>.</h6>
+              <h6>All aspects of music production: recording, editing, and mastering to product design, manufacturing, sale, and promotion. As well as, professionally and emphatically composing and performing solo and in various groups for 18 years. Styles ranging from 6 & 12-string guitar composition, electronic composition, to computer programming composition with <b>MAX|MSP/Ableton</b>.</h6>
            </div>
         </b-col>
       </b-row>
-
-        <a href="/" target="_blank">⏬ Fischer Resume PDF</a>
-      <!-- <b-img src="../../static/resume.png" fluid alt="Responsive image" /> -->
+        <!-- <a href="/" target="_blank">⏬ Fischer Resume PDF</a> -->
+        <b-btn id="portfolioBtn" variant="dark" href="https://github.com/rafischer1/portfolio-Vue" target="_blank">Portfolio Site Github</b-btn>
     </b-container>
   </div>
 </template>
@@ -193,5 +194,9 @@ a:active {
   background-color: hsla(0, 0%, 94%, 0.228);
   color: #132134;
   border-radius: 10px;
+}
+#portfolioBtn {
+  font-size: 18px;
+
 }
 </style>
