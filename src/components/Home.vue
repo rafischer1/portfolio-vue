@@ -4,7 +4,7 @@
 
       <b-jumbotron class="jumbo inboxJumbo" header="React Inbox Fullstack" lead="Email clone site featuring a REACT frontend and GOLANG server and routing Backend" >
         <p>For more information visit site/repos</p>
-        <b-btn class="info" target="_blank" variant="info" href="#">Visit Site</b-btn><br>
+        <b-btn class="info" target="_blank" variant="info" href="http://react-inbox-fe.surge.sh/">Visit Site</b-btn><br>
         <b-btn variant="alert" href="https://github.com/rafischer1/react_inbox_db" target="_blank">Backend Github</b-btn>
         <b-btn variant="alert" href="https://github.com/rafischer1/react-inbox" target="_blank">Frontend Github</b-btn>
        </b-jumbotron>
