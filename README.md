@@ -26,3 +26,4 @@ npm run e2e
 * Resume layout and cleanup
 * Navbar spacing
 * More features for playground...
+* Parallax resume [Vue-parallax npm](https://github.com/apertureless/vue-parallax)
