@@ -8,7 +8,7 @@
              <b-navbar-nav>
                <b-nav-item to="/">Projects</b-nav-item>
                <b-nav-item  to="/resume">Resume</b-nav-item>
-               <b-nav-item v-show="!seen" to="/playground">Playground</b-nav-item>
+               <b-nav-item  to="/parallax">Parallax</b-nav-item>
            </b-navbar-nav>
            <b-navbar-nav clas="welcome">
              <b-button  id="showModal center" variant="info" @click="showModal">Welcome</b-button>
@@ -39,6 +39,7 @@
 </template>
 
 <script>
+import Parallax from 'vue-parallaxy'
 export default {
   data() {
     return {

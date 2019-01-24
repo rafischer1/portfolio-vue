@@ -18,7 +18,10 @@
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
     "vue": "^2.5.2",
+    "vue-parallaxy": "^1.1.1",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
