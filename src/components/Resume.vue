@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page">
   <br />
     <h2>Robert Arthur Fischer (Artie)</h2>
     <a href="tel:302-423-2120">☎️ 302 423 2120</a>
@@ -18,6 +18,7 @@
            <h4>
              <b-badge class="badges" variant="info">JavaScript</b-badge>
              <b-badge class="badges" variant="info">Go</b-badge>
+             <b-badge class="badges" variant="info">Python</b-badge>
              <b-badge class="badges" variant="info">React/Redux/Native</b-badge>
              <b-badge class="badges" variant="info">Vue</b-badge>
              <b-badge class="badges" variant="info">Node</b-badge>
@@ -38,7 +39,7 @@
             <h2>Education</h2>
             <h4>Galvanize, Inc</h4>
             <h5>Full-stack Web Development Immersive</h5>        
-            <h5>Boulder, CO 2018</h5>
+            <h5>Boulder, CO Feb 2019</h5>
              <br />
             <h4>Boston University</h4>
             <h5>B.A. History</h5><h5>Boston, MA 2004</h5>
@@ -93,6 +94,9 @@ export default {
 </script>
 
 <style scoped>
+.page {
+  background: radial-gradient(rgb(39, 82, 102), black);
+}
 .resume {
   display: inline-flex;
   flex-wrap: wrap;
@@ -104,15 +108,12 @@ export default {
   font-weight: normal;
   color:#1b2a22;
   margin-bottom: 2%;
-  background-color: rgba(254, 226, 205, 0.084); 
+  background-color: rgba(255, 255, 255, 0.959); 
   box-shadow: 2px 2px rgb(222, 221, 221);
 }
-h2:hover {
-  color:  #563a8a;
-}
-h3 {
-  color: #2a412a;
-}
+h2 {color: white;}
+h2:hover {color:  #d3c8e7;}
+h3 {color: #2a412a;}
 a {
   color: #42b983;
   font-size: 24px;
@@ -122,9 +123,7 @@ a:hover {
   text-decoration: none;
   outline: none;
 }
-a:active {
- color:  #7a5923;
-}
+a:active {color:  #7a5923;}
 #skillsBar {
   text-align: left;
   border-radius: 15px;

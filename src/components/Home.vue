@@ -3,7 +3,8 @@
     <div>
         <b-jumbotron class="jumbo slrJumbo" header="SLR Maine"  lead="A public engagement tool around coastal flooding and sea level rise in Portland Maine" >
          <p>Built for the Gulf of Maine Research Institute, this application utilizes a Golang backend to route SMS messages with the Twillio API. The frontend is an interactive parallax UI built with React.</p>
-         <b-btn variant="alert" href="https://github.com/rafischer1/slr_capstone_go" target="_blank">Backend Github</b-btn><br>
+           <b-btn class="info" target="_blank" variant="info" href="http://slr-maine.surge.sh/">Visit Site</b-btn><br>
+         <b-btn variant="alert" href="https://github.com/rafischer1/slr_capstone_go" target="_blank">Backend Github</b-btn>
          <b-btn variant="alert" href="https://github.com/rafischer1/gmri_capstone_frontend" target="_blank">Frontend Github</b-btn>
         </b-jumbotron>
 
@@ -21,11 +22,11 @@
          <b-btn variant="alert" target="_blank" href="https://github.com/rafischer1/standupstanddown-be">Github Backend</b-btn>
        </b-jumbotron>
 
-       <b-jumbotron class="jumbo bikeslyJumbo" header="Bikesly"  lead="A traditional fullstack site (HTML|CSS|JS) displaying DOM manipulation skill with several API calls" >
+       <!-- <b-jumbotron class="jumbo bikeslyJumbo" header="Bikesly"  lead="A traditional fullstack site (HTML|CSS|JS) displaying DOM manipulation skill with several API calls" >
          <p>For more information visit site</p>
          <b-btn class="info" target="_blank" variant="info" href="http://rafischer1-q1-bikesly.surge.sh/" >Visit Site</b-btn><br>
          <b-btn variant="alert" href="https://github.com/rafischer1/bikesly" target="_blank">Github</b-btn>
-        </b-jumbotron>
+        </b-jumbotron> -->
     </div>
   </div>
 </template>
