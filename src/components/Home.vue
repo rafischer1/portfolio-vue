@@ -2,7 +2,7 @@
   <div class="home">
     <div>
         <b-jumbotron class="jumbo slrJumbo" header="SLR Maine"  lead="A public engagement tool around coastal flooding and sea level rise in Portland Maine" >
-         <p>Built for the Gulf of Maine Research Institute, this application utilizes a Golang backend to route SMS messages with the Twillio API. The frontend is an interactive parallax UI built with React.</p>
+         <p>Built for the Gulf of Maine Research Institute, this application utilizes a <b>Golang</b> backend to route SMS messages with the <b>Twillio API</b>. The frontend is an interactive <b>parallax UI built with React</b>.</p>
            <b-btn class="info" target="_blank" variant="info" href="http://slr-maine.surge.sh/">Visit Site</b-btn><br>
          <b-btn variant="alert" href="https://github.com/rafischer1/slr_capstone_go" target="_blank">Backend Github</b-btn>
          <b-btn variant="alert" href="https://github.com/rafischer1/gmri_capstone_frontend" target="_blank">Frontend Github</b-btn>
@@ -16,7 +16,7 @@
        </b-jumbotron>
 
        <b-jumbotron class="jumbo q3Jumbo" header="Stand Up!" lead="An Agile application for managing daily stand ups for remote sprint teams" >
-         <p>Fullstack project with NodeJS, Express, Oauth, PostgreSQL, & Vue</p>
+         <p>Fullstack project with <b>NodeJS, Express, Oauth, PostgreSQL, & Vue</b></p>
          <b-btn class="info" target="_blank" variant="info" href="https://standup-fischer.herokuapp.com/">Visit Site</b-btn><br>
          <b-btn variant="alert" target="_blank" href="https://github.com/rafischer1/standupstanddown-fe">Github fullstack</b-btn>
          <b-btn variant="alert" target="_blank" href="https://github.com/rafischer1/standupstanddown-be">Github Backend</b-btn>

@@ -8,7 +8,7 @@
              <b-navbar-nav>
                <b-nav-item to="/">Projects</b-nav-item>
                <b-nav-item  to="/resume">Resume</b-nav-item>
-               <b-nav-item  to="/parallax">Parallax</b-nav-item>
+               <!-- <b-nav-item  to="/parallax">Parallax</b-nav-item> -->
            </b-navbar-nav>
            <b-navbar-nav clas="welcome">
              <b-button  id="showModal center" variant="info" @click="showModal">Welcome</b-button>
@@ -25,9 +25,11 @@
              <b-link class="link" href="https://github.com/rafischer1" target="_blank" >Github</b-link>
              
              <b-link class="link" href="https://www.linkedin.com/in/robert-a-fischer/" target="_blank">LinkedIn</b-link>
-             <b-link class="link navbarItem" href="https://talent.galvanize.com/students/3090" target="_blank">Galvanize Profile</b-link>
+               <b-link class="link" href="  https://galvanize-csm.symplicity.com/profiles/artie.fischer" target="_blank">Galvanize Profile</b-link>
+             <!-- <b-link class="link navbarItem" href="https://talent.galvanize.com/students/3090" target="_blank">Galvanize Profile</b-link> -->
               <b-link class="link" href="https://www.builtincolorado.com/member/artiefischer/134138" target="_blank">Built In Co</b-link>
-       
+            
+     
           </b-navbar-nav>
          </b-collapse>
        </b-navbar>

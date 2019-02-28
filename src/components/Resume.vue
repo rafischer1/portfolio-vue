@@ -1,17 +1,21 @@
 <template>
   <div class="page">
   <br />
-    <h2>Robert Arthur Fischer (Artie)</h2>
+   <parallax speedFactor=".8" direction="down">
+    <h2 id="myName">Robert Arthur Fischer (Artie)</h2>
     <a href="tel:302-423-2120">☎️ 302 423 2120</a>
     <br />
     <a href="mail to:artiefischer@gmail.com">✉️ artiefischer@gmail.com</a>
     <br />
     <br />
+    </parallax>
+      <parallax speedFactor="1.5" direction="up">
     <b-container class="resume">
     <br />
     <p id="personalStatement">
       "Software Developer with a passion for engineering clean and engaging fullstack applications. I am comfortable working in new languages and frameworks and love the challenges associated with providing concise and inventive programming solutions."
      </p>
+     
      <b-row>
        <b-col id="skillsBar">
          <h3>Technical Skills</h3>
@@ -80,10 +84,12 @@
         <!-- <a href="/" target="_blank">⏬ Fischer Resume PDF</a> -->
         <b-btn id="portfolioBtn" variant="dark" href="https://github.com/rafischer1/portfolio-vue" target="_blank">Portfolio Site Github</b-btn>
     </b-container>
+      </parallax>
   </div>
 </template>
 
 <script>
+import Parallax from 'vue-parallaxy'
 export default {
   name: 'Resume',
   data () {
@@ -94,9 +100,8 @@ export default {
 </script>
 
 <style scoped>
-.page {
-  background: radial-gradient(rgb(39, 82, 102), black);
-}
+parallax-container {position: relative;}
+.page {background: radial-gradient(rgb(39, 82, 102), black);}
 .resume {
   display: inline-flex;
   flex-wrap: wrap;
@@ -111,7 +116,8 @@ export default {
   background-color: rgba(255, 255, 255, 0.959); 
   box-shadow: 2px 2px rgb(222, 221, 221);
 }
-h2 {color: white;}
+h2 {color: #2a412a;}
+#myName {color:  #d3c8e7;}
 h2:hover {color:  #d3c8e7;}
 h3 {color: #2a412a;}
 a {
@@ -141,50 +147,36 @@ a:active {color:  #7a5923;}
   transform: rotateZ(-10deg);
   
 }
-.badges:active {
-  color: #e0ffe2;
- 
-}
+.badges:active {color: #e0ffe2;}
 #personalStatement {
   font-size: 20px;
   margin-top: -3%;
   padding-bottom: 1%;
   border-bottom: 1px dashed hsla(0, 0%, 0%, 0.116);
 }
-.professional {
-  width: 50%;
-}
+.professional {width: 50%;}
 #trello {
   color: white;
   font-size: 18px;
   outline: none;
 }
-.education {
- margin-top: 10%;
-}
+.education {margin-top: 10%;}
 .education:hover {
   background-color: hsla(0, 0%, 94%, 0.228);
   color: #132134;
   border-radius: 10px;
 }
-.experience {
-  margin-bottom: 5%;
-}
+.experience {margin-bottom: 5%;}
 .experience:hover {
   background-color: hsla(0, 0%, 94%, 0.228);
   color: #132134;
   border-radius: 10px;
 }
-.volunteer {
-  margin-top: 5%;
-}
+.volunteer {margin-top: 5%;}
 .volunteer:hover {
   background-color: hsla(0, 0%, 94%, 0.228);
   color: #132134;
   border-radius: 10px;
 }
-#portfolioBtn {
-  font-size: 18px;
-
-}
+#portfolioBtn {font-size: 18px;}
 </style>
