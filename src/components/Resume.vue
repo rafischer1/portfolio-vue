@@ -22,7 +22,7 @@
            <h4>
              <b-badge class="badges" variant="info">JavaScript</b-badge>
              <b-badge class="badges" variant="info">Go</b-badge>
-             <b-badge class="badges" variant="info">Python</b-badge>
+             <b-badge class="badges" variant="info">Java</b-badge>
              <b-badge class="badges" variant="info">React/Redux/Native</b-badge>
              <b-badge class="badges" variant="info">Vue</b-badge>
              <b-badge class="badges" variant="info">Node</b-badge>

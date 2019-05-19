@@ -25,6 +25,9 @@
              <b-badge class="badgex" variant="info">Express</b-badge>
              <b-badge class="badgex" variant="info">PostgreSQL</b-badge>
              <b-badge class="badgex" variant="info">SQL</b-badge>
+             <b-badge class="badgex" variant="info">Java</b-badge>
+             <b-badge class="badgex" variant="info">Maven</b-badge>
+             <b-badge class="badgex" variant="info">Spring</b-badge>
              <b-badge class="badgex" variant="info">Git/GitHub</b-badge>
              <b-badge class="badgex" variant="info">Agile</b-badge>
              <b-badge class="badgex" variant="info">AJAX</b-badge>

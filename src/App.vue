@@ -11,7 +11,7 @@
                <!-- <b-nav-item  to="/parallax">Parallax</b-nav-item> -->
            </b-navbar-nav>
            <b-navbar-nav clas="welcome">
-             <b-button  id="showModal center" variant="info" @click="showModal">Welcome</b-button>
+             <b-button  id="showModal center" variant="info" @click="showModal">Contact</b-button>
              <b-modal ref="myModalRef" hide-footer title="Hi! & Contact">
                <div class="d-block text-center">
                  <h4>Thank you for visiting my portfolio site. Please feel free to contact me with any questions</h4>
